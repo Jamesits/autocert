@@ -1,0 +1,8 @@
+[Unit]
+Description=Update Let's Encrypt certs
+
+[Service]
+Type=oneshot
+ExecStart=/home/james/code/autocert/renew.sh
+User=root
+Group=root
